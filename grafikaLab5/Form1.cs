@@ -285,9 +285,9 @@ namespace grafikaLab5
                     Color tukanPixel = bitmapTukan.GetPixel(x, y);
                     Color auroraPixel = bitmapAurora.GetPixel(x, y);
                     int a = 255;
-                    int r = checkIfInRGB(tukanPixel.R + auroraPixel.R - (510 * tukanPixel.R * auroraPixel.R));
-                    int g = checkIfInRGB(tukanPixel.G + auroraPixel.G - (510 * tukanPixel.G * auroraPixel.G));
-                    int b = checkIfInRGB(tukanPixel.B + auroraPixel.B - (510 * tukanPixel.B * auroraPixel.B));
+                    int r = checkIfInRGB(tukanPixel.R + auroraPixel.R - checkIfInRGB(510 * tukanPixel.R * auroraPixel.R));
+                    int g = checkIfInRGB(tukanPixel.G + auroraPixel.G - checkIfInRGB(510 * tukanPixel.G * auroraPixel.G));
+                    int b = checkIfInRGB(tukanPixel.B + auroraPixel.B - checkIfInRGB(510 * tukanPixel.B * auroraPixel.B));
 
                     bitmapTukan.SetPixel(x, y, Color.FromArgb(a, r, g, b));
 
