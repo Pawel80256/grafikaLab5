@@ -8,8 +8,8 @@ Program zawiera w sobie obydwa zadania z laboratorium 5, czyli umożlwia manipul
 * Jasność - umożliwia sterowanie jasnością obrazu w polu zmodyfikowane
 * Negatyw - odwraca kolory zdjęcia tworząc negatyw
 ## Zadanie 2
-* blend 1 - blend 15 - po kliknięciu miesza obydwa zdjęcia według jednego z 15 odmian blendowania
-* Reset - przywraca domysly wygląd zdjecia w polu zmodyfikowane
+* blend 1 - blend 15 - po kliknięciu miesza obydwa zdjęcia według jednego z 15 odmian blendowania (plus przenikanie - 16 odmiana)
+* Reset - przywraca domyslny wygląd zdjecia w polu zmodyfikowane
 * Stopien przenikania - tutaj ustawiamy wartosc (1-255) przenikana która jest następnie przekazywana do fukncji guzika "Przenikanie"
 * Przenikanie - pobiera wartosc z suwaka i według niej miesza ze sobą 2 zdjęcia
 # Działanie programu, funkcje, algorytmy
